@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.6" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Amazon Search" name="Search a Product MacBook Air" time="0.116">
+<system-out><![CDATA[
+Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "Apple MacBook Air" and price 200.....passed
+Then Product with name "Apple MacBook Air" should be displayed..............passed
+And Order id is 12345 and username is "Naveen"..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Amazon Search" name="Search a Product iPhone" time="0.019">
+<system-out><![CDATA[
+Given I have a search field on Amazon Page..................................passed
+When I search for a product with name "iPhone" and price 1200...............passed
+Then Product with name "iPhone" should be displayed.........................passed
+And Order id is 5677 and username is "Naveen automation"....................passed
+]]></system-out>
+</testcase>
+</testsuite>
