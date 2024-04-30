@@ -10,7 +10,7 @@ public class backgroundFeature {
 	public void a_registered_user_exists() {
 	    System.out.println("A registered user is already in the system.");
 	}
-//ksdjjj
+
 	@Given("user is on Amazon login page")
 	public void user_is_on_amazon_login_page() {
 	    System.out.println("User is on the Amazon login page.");
